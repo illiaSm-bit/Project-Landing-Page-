@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f2937;
+}
+
+.container {
+  padding: 0 200px;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-header ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-header a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-family: Roboto;
+  font-size: 18px;
+}
+.nav-header li {
+  list-style: none;
+}
+
+.header_logo a {
+  color: #f9faf8;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+}
