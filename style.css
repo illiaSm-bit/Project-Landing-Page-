@@ -9,6 +9,7 @@ header {
 
 .container {
   padding: 0 200px;
+  margin: 0;
 }
 
 .header_container {
@@ -38,4 +39,45 @@ header {
   font-family: Roboto;
   font-size: 24px;
   font-weight: bold;
+}
+
+.first_section {
+  background-color: #1f2937;
+}
+.first_section_container {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.first_container h1 {
+  color: white;
+}
+.first_container p {
+  color: white;
+  width: 350px;
+}
+.first_container a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(19, 160, 207);
+  border-radius: 3px;
+  padding: 2px 10px;
+}
+
+.second_container {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.second_container p {
+  color: white;
 }
