@@ -136,3 +136,36 @@ header {
   font-family: Roboto;
   font-size: 25px;
 }
+
+.fourth_section {
+  padding: 100px 0;
+}
+
+.alert {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  background-color: #4e83ef;
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+.alert_second_section {
+  display: flex;
+  align-items: center;
+}
+.alert_second_section a {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 4px 25px;
+}
+
+.alert_first_section h3 {
+  color: white;
+  font-family: Roboto;
+}
+.alert_first_section p {
+  color: white;
+  font-family: Roboto;
+}
